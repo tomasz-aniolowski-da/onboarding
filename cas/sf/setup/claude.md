@@ -28,7 +28,7 @@ You will be prompted for configuration values:
 |-------|-------|
 | `sso_start_url` | `https://d-9a672d56e1.awsapps.com/start` |
 | `sso_account_id` | *(your account number)* |
-| `sso_role_name` | `cas-bedrock-user` |
+| `sso_role_name` | `cas-developer` |
 | `sso_region` | `us-east-2` |
 | `region` | `us-east-2` |
 
