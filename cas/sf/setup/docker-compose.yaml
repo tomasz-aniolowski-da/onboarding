@@ -1,0 +1,23 @@
+services:
+  marklogic:
+    image: progressofficial/marklogic-db:latest-12
+    container_name: sf-ml-12
+    platform: linux/amd64
+    restart: unless-stopped
+
+    ports:
+      - "8000:8000"
+      - "8001:8001"
+      - "8002:8002"
+      - "3693:3693"
+      - "3694:3694"
+
+    environment:
+      MARKLOGIC_INIT: "true"
+      MARKLOGIC_ADMIN_USERNAME: "admin"
+      MARKLOGIC_ADMIN_PASSWORD: "admin"
+
+    volumes:
+      - ./ml-data:/var/opt/MarkLogic
+      - ./ml-space:/space
+      - ./ml-backup:/backup
