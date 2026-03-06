@@ -14,6 +14,36 @@ Your CAS account gives you access to most tools listed below — no VPN required
 
 > **Important:** Your CAS email (e.g. `FLastname@cas.org`) and your account ID (e.g. `abc99`) are different. Some tools use the email, others use the account ID. The password is the same.
 
+## CAS Product Account (SCICASID)
+
+You will first receive an email from **BPM_Support** asking you to confirm that you want a non-billable ID - just approve it. After that, **CAS Support** will send you your **SCICASID** - a non-billable login ID that gives you free access to CAS products (SciFinder, BioFinder, Analytical Methods, etc.).
+
+### First Login
+
+> **Important:** The email suggests changing your password at `/profile` first, but this does not work until your account is activated. Follow the steps below instead.
+
+1. Activate your password on **production**: https://accounts.cas.org/password/
+2. Activate your password on the **test environment**: https://accounts-test.cas.org/password/
+3. Log in to any CAS product - you will be prompted to change your password on first login (yes, even though you just set it)
+
+### Available Products
+
+| Product | URL |
+|---------|-----|
+| CAS SciFinder | https://scifinder.cas.org |
+| CAS BioFinder | https://biofinder.cas.org |
+| CAS Analytical Methods | https://methods.cas.org |
+| CAS Formulus | https://formulus.cas.org |
+| PatentExplorer | https://patentexplorer.cas.org |
+
+### Training Resources
+
+- [CAS SciFinder training](https://www.cas.org/solutions/cas-scifinder-discovery-platform/cas-scifinder/training) - on-demand resources organized by search type
+- [CAS PatentPak training](https://www.cas.org/solutions/cas-scifinder-discovery-platform/cas-patentpak/training-support) - chemical patent review
+- [CAS Analytical Methods training](https://www.cas.org/solutions/cas-analytical-methods/training-support) - basic search techniques
+
+Support: nbsupport@cas.org
+
 ## Access by Network
 
 | Tool | Direct access | AWS WorkSpaces | AVD |
@@ -24,7 +54,9 @@ Your CAS account gives you access to most tools listed below — no VPN required
 | Idaptive (SSO portal) | ✓ | | |
 | iConnect | ✓ | | |
 | Ivanti (service requests) | ✓ | | |
+| CAS Products (SCICASID) | ✓ | | |
 | GitLab | | ✓ | |
+| Nucleus (company policies) | ✓ | | |
 | BPM links (ntagileprd01) | | | ✓ |
 
 ## Tools & Services
